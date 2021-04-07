@@ -109,7 +109,7 @@ button:hover a{
        top: 25px;
        right: 25px;
        width: 90%;
-       padding: 10%;
+       padding: 10% auto;
    } 
    .contact_us{
        font-size: 1.75rem;
