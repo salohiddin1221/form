@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    background-color: rgb(228, 224, 224);
+    widows: 100%;
+    height: 80vh;
+    margin: 50px 0;
+    padding: 150px 0;
+}
+.address{
+    position: relative;
+    /* width: 100%; */
+    height: 361px;
+    background-color: rgb(231, 70, 63);
+    padding: 55px 150px;
+}
+.info{
+    color: white;
+    margin: 35px 0;
+    
+}
+.info h1{
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.info i{
+    margin-right: 10px;
+    font-size: 23px;
+}
+.info p{
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.typein{
+    background-color: white;
+    padding: 70px 50px;
+    position: absolute;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(153,153,153);
+    top:100px;
+    right: 100px;
+    box-shadow:0 0 20px  0 rgba(150, 139, 139, 0.705);
+}
+
+.contact_us{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+input{
+    padding: 15px;
+    margin: 20px 0 10px 0;
+}
+button{
+    width: 120px;
+    margin-top: 20px;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border:2px solid black;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.message{
+    height: 100px;
+}
+input{
+    border:2px solid black;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+}
+input::placeholder{
+    font-size: 18px;
+   color: rgb(199, 193, 193);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button:hover a{
+    color: white;
+}
+
+
+@media only screen and  (max-width:991px){
+    body{
+        background-color: rgb(228, 224, 224);
+    }
+   .typein{
+       box-sizing: border-box;
+       top: 50px;
+       right: 50px;
+       width: 80%;
+       padding: 10%;
+   } 
+   .contact_us{
+       font-size: 1.75rem;
+   }
+   input::placeholder{
+       font-size: 1rem;
+   }
+   button{
+       width: 35%;
+       padding: 10px;
+       font-size: 1rem;
+   }
+   input:active{
+       border: 2px solid black;
+   }
+   .message{
+       height: 70px;
+   }
+   .address{
+       box-sizing: border-box;
+       width: 80%;
+       height: 150vh;
+       padding-left:27%;
+   }
+   .info h1{
+       width: 300px;
+       display: flex;
+   }
+   .info p{
+       width: 300px;
+   }
+   .info1{
+       box-sizing: border-box;
+       position: relative;
+      top: 70vh;
+       right: 100px;
+      
+
+   }
+}
+@media only screen and (max-width:450px){
+    .info1{
+        top: 50vh;
+    }
+}
+
+
+
+
