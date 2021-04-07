@@ -106,9 +106,9 @@ button:hover a{
     }
    .typein{
        box-sizing: border-box;
-       top: 50px;
-       right: 50px;
-       width: 80%;
+       top: 25px;
+       right: 25px;
+       width: 90%;
        padding: 10%;
    } 
    .contact_us{
@@ -131,7 +131,7 @@ button:hover a{
    .address{
        box-sizing: border-box;
        width: 80%;
-       height: 150vh;
+       height: 1150px;
       
    }
    .info h1{
@@ -139,14 +139,15 @@ button:hover a{
        display: flex;
    }
    .info p{
-       width: 300px;
+     width: 200px;
+       display: flex;
    }
    .info1{
        box-sizing: border-box;
        position: relative;
-      top: 70vh;
+      top: 500px;
        right: 100px;
-      left: 10%;
+      left: 5%;
 
    }
 }
