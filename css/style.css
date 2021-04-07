@@ -120,6 +120,7 @@ button:hover a{
    button{
        padding: 10px;
        font-size: 1rem;
+       width: 100%;
    }
    input:active{
        border: 2px solid black;
